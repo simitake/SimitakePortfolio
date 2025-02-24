@@ -13,7 +13,7 @@ img{
 }
 ul{
     list-style-position: inside;
-    list-style-image:url("./images/check.svg") ;
+    list-style-image:url(./images/check.svg) ;
 }
 
 /*index-----------------------------------*/
