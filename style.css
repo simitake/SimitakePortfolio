@@ -497,6 +497,7 @@ form .button:hover{
     }
     form textarea{
         width:80vw;
+        height:20vh;
     }
     form .button{
         width:80vw;
