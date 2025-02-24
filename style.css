@@ -176,6 +176,7 @@ article{
 article .container{
     margin-left:10vw;
     padding:20px 20px 20px 0;
+    display: flow-root;
 }
 article h2{
     margin-bottom:80px
@@ -200,10 +201,9 @@ article h2{
 }
 #skillsets{
     margin-right:10vw;
-    /*margin-bottom: 40px;*/
+    margin-bottom: 40px;
     width:calc(100vw - 10vw);
     min-height:600px;
-    height:100%;
     background-image:url("./images/about_4.jpg");
     background-size: cover;
     background-position: top;
@@ -226,6 +226,7 @@ article h2{
 }
 .link{
     background-color: #023000;
+    border:2px #023000 solid;
     text-align: center;
     min-height:40px;
     padding:3px;
@@ -234,7 +235,9 @@ article h2{
 #skillsets .link{
     margin-right: 20px;
     margin-top: 50px;
+    margin-bottom:30px;
     min-width:180px;
+    width:30vw;
     float:right;
 }
 .link p{
@@ -445,9 +448,6 @@ form .button:hover{
         width:250px;
         margin-bottom: 10px;
         min-height:250px
-    }
-    #skillsets{
-        height:90vh;
     }
     /*service------------------------------*/
     #service .article{
