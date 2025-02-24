@@ -14,12 +14,12 @@ img{
 }
 ul{
     list-style-position: inside;
-    list-style-image:url(../images/check.svg) ;
+    list-style-image:url("../images/check.svg") ;
 }
 
 /*index-----------------------------------*/
 .big-bg{
-    background-image: url(https://simitake.github.io/SimitakePortfolio/images/index_1.jpg);
+    background-image: url("https://simitake.github.io/SimitakePortfolio/images/index_1.jpg");
     background-size: cover;
     background-position:center top;
     min-height:100vh;
