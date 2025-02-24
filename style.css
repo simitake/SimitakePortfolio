@@ -423,10 +423,14 @@ form .button:hover{
         width:90%;
     }
     .title h2{
-        letter-spacing: 10px;
+        letter-spacing: 8px;
+        font-size:22px;
     }
     .title h1{
-        font-size: 42px;
+        font-size: 38px;
+    }
+    .title span{
+        font-size:28px;
     }
     /*about------------------------------*/
     .gallery{
