@@ -39,6 +39,7 @@ ul{
 .page-header ul{
     display:flex;
     padding:20px;
+    min-width:360px;
 }
 .page-header li{
     list-style: none;
@@ -124,7 +125,7 @@ hr{
     width:90vw;
     height:700px;
     object-fit: cover;
-    object-position: top;
+    object-position:20% top;
 }
 .mark{
     height:16px;
@@ -399,8 +400,11 @@ form .button:hover{
 
 /*メディアクエリ-----------------------*/
 @media(max-width:670px){
-    p,li{
+    p,li,a{
         font-size: 14px;
+    }
+    h1{
+        font-size:24px
     }
     /*index----------------------------*/
     .page-header{
@@ -413,10 +417,13 @@ form .button:hover{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        width:100%;
+        width:90%;
+    }
+    .title h2{
+        letter-spacing: 10px;
     }
     .title h1{
-        font-size: 48px;
+        font-size: 42px;
     }
     /*about------------------------------*/
     .gallery{
@@ -461,6 +468,7 @@ form .button:hover{
     .plan{
         margin-top: 10px;
         width:300px;
+        max-width:100%;
     }
     /*contact-----------------------------*/
     form input{
