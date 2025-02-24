@@ -18,7 +18,7 @@ ul{
 
 /*index-----------------------------------*/
 .big-bg{
-    background-image: url("https://simitake.github.io/SimitakePortfolio/images/index_1.jpg");
+    background-image: url(https://simitake.github.io/SimitakePortfolio/images/index_1.jpg);
     background-size: cover;
     background-position:center top;
     min-height:100vh;
@@ -165,7 +165,7 @@ article{
     margin-bottom: 20px;
     width:calc(100vw - 10vw);
     min-height:500px;
-    background-image:url("../images/about_2.JPG");
+    background-image:url("./images/about_2.JPG");
     background-size: cover;
     background-position: top;
     background-color: rgba(255,255,255, 0.2);
